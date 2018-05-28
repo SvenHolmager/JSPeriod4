@@ -41,5 +41,4 @@ describe("Testing the User Facade", function () {
     var users = await userFacade.getAllUsers();
     expect(users.length).to.be.equal(3);
   });
-
 })
